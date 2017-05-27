@@ -1,0 +1,48 @@
+{
+  "name": "fund_netvals_site",
+  "description": "A Vue.js project for dosplaying fund_netvals",
+  "version": "1.0.0",
+  "author": "Huang Panpan <mowencangtian@gmail.com>",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "webpack": "cross-env NODE_ENV=development webpack --progress --colors --watch",
+    "liveload": "livereload assets routes views/jade -w 1000 -d"
+  },
+  "dependencies": {
+    "body-parser": "~1.16.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "element-ui": "^1.2.9",
+    "express": "~4.14.1",
+    "js-yaml": "^3.8.1",
+    "moment": "^2.18.1",
+    "morgan": "~1.7.0",
+    "multiparty": "latest",
+    "mysql": "^2.13.0",
+    "promise-mysql": "latest",
+    "pug": "^2.0.0-beta.12",
+    "serve-favicon": "^2.4.2",
+    "vue": "^2.2.1",
+    "vue-echarts": "^2.3.8",
+    "vue-resource": "^1.3.1",
+    "vue-router": "^2.5.2",
+    "vuetify": "^0.12.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-latest": "^6.0.0",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "style-loader": "^0.16.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue-loader": "^11.1.4",
+    "vue-template-compiler": "^2.2.1",
+    "vuetify": "^0.12.1",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
+  }
+}
