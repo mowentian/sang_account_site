@@ -1,0 +1,22 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "globals": {
+    "__DEV__": true
+  },
+  "rules": {
+    "no-confusing-arrow": 0,
+    "no-underscore-dangle": ["off"],
+    "curly": ["off"],
+    "no-param-reassign": ["off"],
+    "no-alert": ["off"],
+    "no-console": ["off"],
+    "no-restricted-syntax": ["warn"],
+    "no-new": ["off"],
+    "no-nested-ternary": ["off"],
+    "comma-dangle": "off",
+    "no-plusplus": "off",
+    "no-continue": "off",
+    "no-mixed-operators": "off"
+  }
+}
